@@ -1,0 +1,211 @@
+body {
+  background-color: yellow;
+}
+
+li.nav {
+  float: left;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+li a.nav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.nav:hover {
+  background-color: red;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+#fronttitle {
+  text-align: center;
+  font-weight: bolder;
+  color: purple;
+  font-size: 55px;
+}
+
+#homeicon {
+  display: block;
+  margin-left: 200px;
+  margin-right: 70px;
+  margin-top: -5px;
+  width: 300px;
+  height: 280px;
+  border: 5px dashed blue;
+  float: left;
+}
+
+#homeicon:hover {
+  width: 500px;
+  height: 500px;
+  transform: translate(50px,100px);
+}
+
+#page1gif1 {
+  width: 550px;
+  height: 280px;
+  margin-top: -5px;
+  border: 5px dashed red;
+}
+
+#page1gif1:hover {
+  width: 500px;
+  height: 500px;
+  transform: translate(50px,100px);
+}
+
+#headerintroduction {
+  margin-left: 100px;
+}
+
+#openingparagraph {
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: large;
+}
+
+
+#page1img2 {
+  float: left;
+  margin-left: 100px;
+  margin-right: 10px;
+  width: 350px;
+  border: 5px dashed blue;
+}
+
+#page1img2:hover {
+  width: 500px;
+  height: 500px;
+  transform: translate(50px,100px);
+}
+
+#header1 {
+  margin-left: 100px;
+  font-size: 30px;
+}
+
+#textno2 {
+  text-align: justify;
+  width: auto;
+  font-size: large;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+#page1img3 {
+  width: 500px;
+  height: 200px;
+  float: right;
+  border: 5px dashed blue;
+  margin-bottom: 50px;
+  margin-right: 100px;
+}
+
+#page1img3:hover {
+  width: 500px;
+  height: 500px;
+  transform: translate(50px,100px);
+}
+
+#header2 {
+  margin-left: 100px;
+  font-size: 30px;
+}
+  
+#orderedlistssteps {
+  font-size: large;
+  margin-left: 75px;
+}
+
+#page1footer {
+  margin-top: 118px;
+  font-size: 20px;
+  color: red;
+  text-align: right;
+  margin-right: 100px;
+}
+
+#backtotop {
+  display: inline;
+  margin-top: 20px;
+  margin-left: 600px;
+  text-align: center;
+  font-size: 15px;
+  color: red;
+}
+
+#navlist {
+  position : relative;
+}
+
+#navlist li {
+  margin : 0;
+  padding: 0;
+  list-style : none;
+  position: absolute;
+  top : 0;
+}
+
+
+#navlist li, #navlist a {
+  height: 48px;
+  display: block;
+}
+
+#facebook {
+    left: 0px;
+    width: 48px; 
+    background: url('C:/Users/Angelo Clark Tongco/OneDrive/Desktop/2QProjSodiumTongco/images/css_sprites.png') -10px -10px;
+}
+
+#youtube {
+    left: 48px;
+    width: 48px;
+    background: url('C:/Users/Angelo Clark Tongco/OneDrive/Desktop/2QProjSodiumTongco/images/css_sprites.png') -78px -78px;
+}
+
+
+
+#twitter {
+    left: 96px;
+    width: 48px; 
+    background: url('C:/Users/Angelo Clark Tongco/OneDrive/Desktop/2QProjSodiumTongco/images/css_sprites.png') -10px -78px;
+}
+
+#google {
+    left: 144px;
+    width: 48px; 
+    background: url('C:/Users/Angelo Clark Tongco/OneDrive/Desktop/2QProjSodiumTongco/images/css_sprites.png') -78px -10px;
+}
+
+#facebook a:hover {
+  background: url('C:/Users/Angelo Clark Tongco/OneDrive/Desktop/2QProjSodiumTongco/images/css_sprites hover.png') -10px -10px;
+}
+
+#youtube a:hover {
+  background: url('C:/Users/Angelo Clark Tongco/OneDrive/Desktop/2QProjSodiumTongco/images/css_sprites hover.png') -78px -78px;
+}
+
+#twitter a:hover {
+  background: url('C:/Users/Angelo Clark Tongco/OneDrive/Desktop/2QProjSodiumTongco/images/css_sprites hover.png') -10px -78px;
+}
+
+#google a:hover {
+    background: url('C:/Users/Angelo Clark Tongco/OneDrive/Desktop/2QProjSodiumTongco/images/css_sprites hover.png') -78px -10px;
+}
+
+
+
+
